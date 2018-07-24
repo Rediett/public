@@ -1,0 +1,15 @@
+def convert():
+    inp = input("The input type: h-houre | m-month | y-year | d-day,choose one!!")
+    if inp == "h":
+        p = input("what is the hour??")
+        print(int(p)*3600,"second")
+    if inp == "m":
+        p = input("what is the month??")
+        print(int(p)*2592000,"second")
+    if inp == "y":
+        p = input("what is the year??")
+        print(int(p)*31557600,"second")
+    if inp == "d":
+        p = input("what is the day??")
+        print(int(p)*86400,"second")
+convert()
